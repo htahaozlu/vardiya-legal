@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vardiya Cüzdanı - Gizlilik Politikası / Privacy Policy</title>
+<style>
+:root{--bg:#f4f2ed;--ink:#151515;--mut:#5b5852;--acc:#ff5c35;--line:#d9d5cb;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#151515;--ink:#f4f2ed;--mut:#b5b0a6;--line:#3a3834;--card:#1f1e1c}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,system-ui,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+nav{display:flex;gap:8px;margin-bottom:16px}
+nav a{border:1px solid var(--line);border-radius:8px;padding:6px 14px;color:var(--ink);text-decoration:none;background:var(--card)}
+nav a:hover{border-color:var(--acc)}
+h1{font-size:1.6rem;line-height:1.25;border-left:6px solid var(--acc);padding-left:12px}
+h2{font-size:1.15rem;margin-top:2rem}
+a{color:var(--acc)}
+table{border-collapse:collapse;width:100%;font-size:.92rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+code{background:var(--card);padding:1px 5px;border-radius:4px}
+hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
+section{display:none}
+section:target{display:block}
+#tr{display:block}
+section:target ~ #tr{display:none}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#tr">Türkçe</a><a href="#en">English</a></nav>
+<section id="en" lang="en">
+<h1>Vardiya Cüzdanı - Privacy Policy</h1>
+<p>Last updated: 15 October 2026 · Version 1.0</p>
+<h2>1. In short</h2>
+<ul>
+<li>No account. No email, name, phone number or password is asked for.</li>
+<li>Your shifts, pay rules and payslip records stay on your device. The developer runs no server for them; this data never reaches us.</li>
+<li>No ads, no tracking, no analytics SDK.</li>
+<li>The only network connection is for purchases (section 4). Your work and pay data is not sent over it.</li>
+</ul>
+<h2>2. Controller</h2>
+<p>Hasan Taha Özlu (individual developer). Contact: <a href="https://htahaozlu.github.io/vardiya-legal/destek/">https://htahaozlu.github.io/vardiya-legal/destek/</a></p>
+<p>The developer cannot access the records the app keeps on your device. For that data you are, in practice, in control.</p>
+<h2>3. Data stored on your device</h2>
+<p>The information below is stored only in the app's local storage on your device, because you entered it:</p>
+<table><thead><tr><th>Data</th><th>Purpose</th><th>Where</th></tr></thead><tbody>
+<tr><td>Shift records (date, type, hours, time range)</td><td>Monthly hours and estimated earnings</td><td>Device only</td></tr>
+<tr><td>Pay rules (wage, multipliers, effective date)</td><td>Estimated gross amount</td><td>Device only</td></tr>
+<tr><td>Payslip amounts (total and line by line)</td><td>Comparing expected and paid amounts</td><td>Device only</td></tr>
+<tr><td>Profession, wage mode and rotation choice</td><td>First setup and defaults</td><td>Device only</td></tr>
+<tr><td>Notification settings</td><td>Local reminders</td><td>Device only</td></tr>
+</tbody></table>
+<p>Deleting the app removes this data from the device. On Android the app's data is excluded from Google's automatic backup (<code>allowBackup</code> is off). On iOS your device backup settings (iCloud/iTunes backup) may include app data; that is an operating-system feature under your control.</p>
+<h2>4. Third parties: purchases</h2>
+<p>The app may offer optional paid features. For purchases and subscription status:</p>
+<ul>
+<li><strong>Apple App Store / Google Play</strong> process payment. We never see your card details.</li>
+<li><strong>RevenueCat, Inc.</strong> is the service provider that validates purchases and subscription status. It receives your purchase history, a randomly generated anonymous app user ID, device and app version information, locale and currency, and technical connection data such as your IP address, as is inherent to any network request. Your shift, pay and payslip data is not sent to RevenueCat. Its processing is governed by its own privacy policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
+</ul>
+<p>This data is used only to verify your purchase, unlock your entitlement and prevent fraud. It is not used for advertising, profiling or cross-app tracking, and it is not sold.</p>
+<h2>5. Backup, sharing and export</h2>
+<ul>
+<li><strong>Backup file:</strong> The app offers in-app export and backup of your records to one file (which features are available may depend on your plan). If you set a passphrase the file is encrypted with AES-256-GCM (the key is derived from your passphrase with PBKDF2-HMAC-SHA256). We do not store the passphrase; if you forget it nobody can open the file and we cannot recover it. You choose where the file is saved; the app does not send it anywhere.</li>
+<li><strong>PDF / CSV reports:</strong> You send them yourself through the system share sheet to the app you choose. That destination's own rules apply.</li>
+<li><strong>Restore:</strong> Only the backup file you pick in the file picker is read.</li>
+</ul>
+<h2>6. Permissions</h2>
+<ul>
+<li><strong>Notifications:</strong> Requested only when you turn on a reminder. Reminders are scheduled on the device, not pushed from a server. Notification text never shows amounts.</li>
+<li><strong>Android, run at startup (RECEIVE_BOOT_COMPLETED):</strong> Lets scheduled reminders continue after the device restarts.</li>
+<li>No location, camera, microphone, contacts, photo library, calendar or health permission is requested.</li>
+</ul>
+<h2>7. Retention and deletion</h2>
+<p>Data on your device stays until you delete it or uninstall the app. Purchase records may be kept at RevenueCat for as long as law and accounting require. You can ask for your purchase record to be deleted via <a href="https://htahaozlu.github.io/vardiya-legal/destek/">https://htahaozlu.github.io/vardiya-legal/destek/</a>.</p>
+<h2>8. Your rights</h2>
+<p>Depending on where you live (including under Turkish KVKK Law No. 6698 article 11, and the GDPR in the EEA/UK) you may ask what data is processed about you, request correction or deletion, object to or restrict processing, and complain to your data protection authority. Contact: <a href="https://htahaozlu.github.io/vardiya-legal/destek/">https://htahaozlu.github.io/vardiya-legal/destek/</a>. You can delete and export on-device data yourself inside the app.</p>
+<p>Legal bases: performance of a contract (providing purchases) and legitimate interest (fraud prevention). International transfer: RevenueCat is a US-based provider, so purchase data may be transferred outside your country.</p>
+<h2>9. Children</h2>
+<p>The app is not directed to children under 13 and does not knowingly collect their data.</p>
+<h2>10. Important: amounts are estimates</h2>
+<p>Amounts in the app are <strong>estimates</strong> based on what you enter. They are not an official payslip, accounting, legal or financial advice. If you see a difference, you can raise it with your employer's payroll department.</p>
+<h2>11. Changes</h2>
+<p>If this text changes, the new version is published on this page with a new date.</p>
+<hr>
+<h2>Terms (summary)</h2>
+<p>The app is covered by Apple's standard Licensed Application End User License Agreement (Standard EULA): <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a> . On Android the Google Play Terms of Service apply. The app is provided "as is"; calculations are estimates and not an official payslip, legal or financial advice. Subscriptions are managed and cancelled through your Apple/Google account.</p>
+</section>
+<section id="tr" lang="tr">
+<h1>Vardiya Cüzdanı - Gizlilik Politikası ve KVKK Aydınlatma Metni</h1>
+<p>Son güncelleme: 15 Ekim 2026 · Sürüm 1.0</p>
+<h2>1. Kısaca</h2>
+<ul>
+<li>Hesap açmazsınız. E-posta, ad, telefon ya da şifre istenmez.</li>
+<li>Vardiya, ücret kuralı ve bordro kayıtlarınız yalnızca cihazınızda saklanır. Geliştiricinin sunucusu yoktur; bu veriler bize ulaşmaz.</li>
+<li>Reklam, izleme ve analiz (analytics) SDK'sı yoktur.</li>
+<li>Tek ağ bağlantısı satın alma işlemleri içindir (bölüm 4). Çalışma ve ücret verileriniz bu bağlantıyla gönderilmez.</li>
+</ul>
+<h2>2. Veri sorumlusu</h2>
+<p>Hasan Taha Özlu (bireysel geliştirici). İletişim: <a href="https://htahaozlu.github.io/vardiya-legal/destek/">https://htahaozlu.github.io/vardiya-legal/destek/</a></p>
+<p>Uygulamanın cihazınızda tuttuğu kayıtlara geliştirici erişemez. Bu nedenle bu verilerle ilgili olarak fiilen verinin kontrolü sizdedir.</p>
+<h2>3. Cihazda saklanan veriler</h2>
+<p>Aşağıdaki bilgiler, siz girdiğiniz için uygulama tarafından yalnızca cihazınızın yerel depolamasında tutulur:</p>
+<table><thead><tr><th>Veri</th><th>Ne için</th><th>Nerede</th></tr></thead><tbody>
+<tr><td>Vardiya kayıtları (tarih, tür, süre, saat aralığı)</td><td>Aylık saat ve tahmini kazanç hesabı</td><td>Yalnızca cihaz</td></tr>
+<tr><td>Ücret kuralları (ücret, çarpanlar, yürürlük tarihi)</td><td>Tahmini brüt tutarın hesabı</td><td>Yalnızca cihaz</td></tr>
+<tr><td>Bordro tutarları (toplam ve satır satır)</td><td>Beklenen ve bordrodaki tutarın karşılaştırılması</td><td>Yalnızca cihaz</td></tr>
+<tr><td>Meslek, ücret biçimi ve rotasyon seçimi</td><td>İlk kurulum ve varsayılanlar</td><td>Yalnızca cihaz</td></tr>
+<tr><td>Bildirim ayarları</td><td>Yerel hatırlatmalar</td><td>Yalnızca cihaz</td></tr>
+</tbody></table>
+<p>Uygulamayı silmek bu verileri cihazdan siler. Android'de uygulama verisi, Google'ın otomatik yedeğine dahil edilmez (<code>allowBackup</code> kapalıdır). iOS'ta cihaz yedekleme ayarlarınız (iCloud/iTunes yedeği) uygulama verisini kapsayabilir; bu, işletim sisteminin sizin kontrolünüzdeki özelliğidir.</p>
+<h2>4. Üçüncü taraflar: satın alma</h2>
+<p>Uygulamada isteğe bağlı ücretli özellikler olabilir. Satın alma ve abonelik durumu için:</p>
+<ul>
+<li><strong>Apple App Store / Google Play</strong> ödemeyi işler. Kart bilgilerinizi biz görmeyiz.</li>
+<li><strong>RevenueCat, Inc.</strong> abonelik ve satın alma durumunu doğrulayan hizmet sağlayıcımızdır. RevenueCat'e satın alma geçmişiniz, rastgele oluşturulan anonim bir uygulama kullanıcı kimliği, cihaz/sürüm bilgisi, dil ve para birimi ile her ağ isteğinin doğal bir sonucu olarak IP adresi gibi teknik bağlantı bilgileri ulaşır. Vardiya, ücret veya bordro verileriniz RevenueCat'e gönderilmez. RevenueCat'in işlemesi kendi gizlilik politikasına tabidir: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
+</ul>
+<p>Bu veriler yalnızca satın almanızı doğrulamak, erişim hakkınızı (entitlement) açmak ve sahtekarlığı önlemek için kullanılır. Reklam, profil çıkarma veya uygulamalar arası izleme için kullanılmaz ve satılmaz.</p>
+<h2>5. Yedek, paylaşma ve dışa aktarma</h2>
+<ul>
+<li><strong>Yedek dosyası:</strong> Uygulama içinden dışa aktarma ve yedekleme ile kayıtlarınızı tek bir dosyaya aktarabilirsiniz (hangi özelliklerin açık olduğu planınıza göre değişebilir). Parola belirlerseniz dosya AES-256-GCM ile şifrelenir (anahtar, parolanızdan PBKDF2-HMAC-SHA256 ile türetilir). Parolayı biz saklamayız; unutursanız dosyayı kimse açamaz, biz de kurtaramayız. Dosyayı nereye kaydedeceğinizi siz seçersiniz; uygulama bir yere otomatik göndermez.</li>
+<li><strong>PDF / CSV raporları:</strong> Cihazın paylaşım ekranıyla, seçtiğiniz uygulamaya siz gönderirsiniz. Gönderdiğiniz yerin kuralları o uygulamaya aittir.</li>
+<li><strong>Geri yükleme:</strong> Dosya seçici ile seçtiğiniz yedek dosyası okunur; başka dosyalara erişilmez.</li>
+</ul>
+<h2>6. İzinler</h2>
+<ul>
+<li><strong>Bildirimler:</strong> Yalnızca siz bir hatırlatıcıyı açtığınızda istenir. Hatırlatmalar cihazda zamanlanır, bir sunucudan gelmez. Bildirim metninde tutar gösterilmez.</li>
+<li><strong>Android: yeniden başlatmada çalışma (RECEIVE_BOOT_COMPLETED):</strong> Zamanlanmış hatırlatmaların cihaz yeniden başladıktan sonra devam etmesi içindir.</li>
+<li>Konum, kamera, mikrofon, rehber, fotoğraf kitaplığı, takvim veya sağlık verisi izni istenmez.</li>
+</ul>
+<h2>7. Saklama süresi ve silme</h2>
+<p>Cihazdaki veriler siz silene ya da uygulamayı kaldırana kadar durur. Satın alma kayıtları RevenueCat'te, mevzuatın ve muhasebenin gerektirdiği süre kadar tutulabilir. Satın alma kaydınızın silinmesini <a href="https://htahaozlu.github.io/vardiya-legal/destek/">https://htahaozlu.github.io/vardiya-legal/destek/</a> sayfasından isteyebilirsiniz.</p>
+<h2>8. KVKK kapsamındaki haklarınız</h2>
+<p>6698 sayılı KVKK madde 11 uyarınca, hakkınızda işlenen veriyi öğrenme, düzeltme, silme, işlemenin kısıtlanmasını isteme ve Kişisel Verileri Koruma Kurumu'na şikâyet etme haklarınız vardır. Başvuru: <a href="https://htahaozlu.github.io/vardiya-legal/destek/">https://htahaozlu.github.io/vardiya-legal/destek/</a>. Cihazdaki tüm verileri uygulama içinden kendiniz silebilir (Hakkında &gt; Tüm verileri sil); uygulama içinden dışa aktarma ve yedekleme de sunulur.</p>
+<p>İşleme dayanağı: sözleşmenin ifası (satın alma hizmetinin sunulması) ve meşru menfaat (sahtekarlığın önlenmesi). Yurt dışına aktarım: RevenueCat, ABD'de bulunan bir hizmet sağlayıcıdır; satın alma verisi bu yolla yurt dışına aktarılabilir.</p>
+<h2>9. Çocuklar</h2>
+<p>Uygulama 13 yaşından küçüklere yönelik değildir ve onlardan bilerek veri toplamaz.</p>
+<h2>10. Önemli not: tahmin</h2>
+<p>Uygulamadaki tutarlar, girdiğiniz bilgilere dayanan <strong>tahminlerdir</strong>. Resmî bordro, muhasebe, hukuki veya finansal danışmanlık yerine geçmez. Bir farkın nedeni konusunda işvereninizin bordro birimiyle konuşabilirsiniz.</p>
+<h2>11. Değişiklikler</h2>
+<p>Bu metin güncellenirse bu sayfada yeni tarihle yayımlanır.</p>
+<hr>
+<h2>Kullanım Koşulları (özet)</h2>
+<p>Uygulama, Apple'ın standart Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi'ne (Standard EULA) tabidir: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a> . Android'de Google Play Hizmet Şartları geçerlidir. Uygulama "olduğu gibi" sunulur; hesaplamalar tahmindir ve resmî bordro, hukuki ya da finansal danışmanlık değildir. Abonelikler Apple/Google hesabınız üzerinden yönetilir ve iptal edilir.</p>
+</section>
+</main>
+</body>
+</html>

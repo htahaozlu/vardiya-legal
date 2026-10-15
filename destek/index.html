@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vardiya Cüzdanı - Destek / Support</title>
+<style>
+:root{--bg:#f4f2ed;--ink:#151515;--mut:#5b5852;--acc:#ff5c35;--line:#d9d5cb;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#151515;--ink:#f4f2ed;--mut:#b5b0a6;--line:#3a3834;--card:#1f1e1c}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,system-ui,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+nav{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+nav a{border:1px solid var(--line);border-radius:8px;padding:6px 14px;color:var(--ink);text-decoration:none;background:var(--card)}
+nav a:hover{border-color:var(--acc)}
+h1{font-size:1.6rem;line-height:1.25;border-left:6px solid var(--acc);padding-left:12px}
+h2{font-size:1.15rem;margin-top:2rem}
+a{color:var(--acc)}
+.cta{display:inline-block;margin:8px 0 4px;padding:10px 18px;border-radius:8px;background:var(--acc);color:#151515;text-decoration:none;font-weight:600}
+.mut{color:var(--mut);font-size:.92rem}
+section{display:none}
+section:target{display:block}
+#tr{display:block}
+section:target ~ #tr{display:none}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#tr">Türkçe</a><a href="#en">English</a><a href="../">Gizlilik / Privacy</a></nav>
+
+<section id="en">
+<h1>Vardiya Cüzdanı — Support</h1>
+<p>Questions, bug reports and feature requests are answered through the public issue tracker.</p>
+<p><a class="cta" href="https://github.com/htahaozlu/vardiya-legal/issues/new">Open a support request</a></p>
+<p class="mut">Never post salary amounts, payslips or other personal data in a public request. Describe the problem in general terms; we will tell you how to share details privately if needed.</p>
+<h2>Frequently asked</h2>
+<p><strong>Where is my data?</strong> Only on your device. There is no account and no server copy. Use "Yedekle / Geri yükle" in the app to keep a backup file.</p>
+<p><strong>How do I restore a purchase?</strong> Open the Pro screen and tap "Satın alımları geri yükle".</p>
+<p><strong>How do I cancel a subscription?</strong> In your device settings: Apple ID → Subscriptions (iPhone) or Google Play → Payments &amp; subscriptions (Android).</p>
+<p><strong>How do I delete everything?</strong> In the app: Hakkında → "Tüm verileri sil".</p>
+<p><strong>Is the amount exact?</strong> No. Vardiya Cüzdanı shows an estimate of gross pay from your records and the rules you enter. It is not legal or financial advice.</p>
+</section>
+
+<section id="tr">
+<h1>Vardiya Cüzdanı — Destek</h1>
+<p>Soru, hata bildirimi ve öneriler herkese açık destek kaydı üzerinden yanıtlanır.</p>
+<p><a class="cta" href="https://github.com/htahaozlu/vardiya-legal/issues/new">Destek talebi aç</a></p>
+<p class="mut">Herkese açık kayıtlara maaş tutarı, bordro ya da başka kişisel veri yazmayın. Sorunu genel olarak anlatın; gerekirse ayrıntıları özel olarak nasıl paylaşabileceğinizi biz söyleriz.</p>
+<h2>Sık sorulanlar</h2>
+<p><strong>Verilerim nerede?</strong> Yalnızca cihazınızda. Hesap ve sunucu kopyası yoktur. Yedek dosyası için uygulamadaki "Yedekle / Geri yükle" bölümünü kullanın.</p>
+<p><strong>Satın alımımı nasıl geri yüklerim?</strong> Pro ekranını açıp "Satın alımları geri yükle"ye dokunun.</p>
+<p><strong>Aboneliği nasıl iptal ederim?</strong> Cihaz ayarlarından: Apple Kimliği → Abonelikler (iPhone) veya Google Play → Ödemeler ve abonelikler (Android).</p>
+<p><strong>Her şeyi nasıl silerim?</strong> Uygulamada: Hakkında → "Tüm verileri sil".</p>
+<p><strong>Tutar kesin mi?</strong> Hayır. Vardiya Cüzdanı kayıtlarınızdan ve girdiğiniz kurallardan brüt ücret tahmini gösterir; hukuki veya mali görüş değildir.</p>
+</section>
+</main>
+</body>
+</html>
